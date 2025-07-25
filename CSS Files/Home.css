@@ -110,6 +110,7 @@ body{
 .section5div1 p{
     font-weight: 600;
     text-decoration: underline;
+    text-underline-offset: 2px;
     font-size: 20px;
 }
 .section5div1 p:hover{
@@ -259,6 +260,11 @@ span.reviewnumber{
 .section6 img{
     border-radius: 100px;
 }
+.section6 img:hover{
+    position: relative;
+    top: -2px;
+    cursor: pointer;
+}
 .section6 div{
     display: flex;
     flex-direction: column;
@@ -268,6 +274,9 @@ span.reviewnumber{
     font-size: 20px;
     font-weight: bold;
 }
+.section6 div p:hover{
+    cursor: pointer;
+}
 .bestseller{
     padding-left: 53px;
 }
@@ -275,15 +284,616 @@ span.reviewnumber{
     padding-left: 41px;
 }
 .womanattar{
-    padding-left: 1px;
+    padding-left: 24px;
 }
 .eastern{
-    padding-left: 1px;
+    padding-left: 69px;
 }
 
 .western{
-    padding-left: 1px;
+    padding-left: 64px;
 }
 .longlasting{
-    padding-left: 1px;
+    padding-left: 26px;
+}
+.section7{
+    margin-top: 50px;
+}
+.section7div1{
+    display: flex;
+    justify-content: right;
+    gap: 28em;
+    padding-right: 40px;
+}
+.section7div1 h3{
+    font-size: 30px;
+    font-weight: 1000;
+    color: black;
+}
+.section7div1 p{
+    font-weight: 700;
+    text-decoration: underline;
+    text-underline-offset: 2px;
+    font-size: 20px;
+}
+.section7div1 p:hover{
+    cursor: pointer;
+}
+.section7div2{
+    display: flex;
+    padding-top: 30px;
+    padding-left: 20px;
+    padding-right: 20px;
+    gap: 7px;
+}
+.section7div2picture{
+    background-color: #F9F9F9;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 13px;
+    padding-bottom: 40px;
+    position: relative;
+}
+p.section7div2picturecaption{
+    font-size: 18px;
+    line-height: 25px;
+    /* padding: 17px; */
+}
+.section7div2picture p span.captionspan{
+    display: block;
+}
+.section7div2picture p{
+    padding-left: 15px;
+}
+.section7div2picture img{
+    border-radius: 10px 10px 0px 0px;
+}
+.hoverimage{
+    position: absolute;
+    display: none;
+    top: 0;
+    left: 0;
+}
+.section7div2picture:hover .hoverimage{
+    display: block;
+}
+.section7div2picture:hover{
+    cursor: pointer;
+}
+.section8{
+    display: flex;
+    gap: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 50px;
+}
+.premiumattarimage{
+    padding-bottom: 6px;
+}
+.affordableattarimage{
+    padding-bottom: 6px;
+}
+.section8:hover{
+    cursor: pointer;
+}
+.section9{
+    margin-top: 50px;
+}
+.section9div1{
+    display: flex;
+    justify-content: right;
+    gap: 23em;
+    padding-right: 38px;
+}
+.section9div1 h3{
+    font-size: 30px;
+    font-weight: 1000;
+    color: black;
+}
+.section9div1 p{
+    font-weight: 700;
+    text-decoration: underline;
+    text-underline-offset: 2px;
+    font-size: 20px;
+}
+.section9div1 p:hover{
+    cursor: pointer;
+}
+.section10{
+    margin-top: 50px;
+}
+.section10div1{
+    display: flex;
+    justify-content: right;
+    gap: 23em;
+    padding-right: 38px;
+}
+.section10div1 h3{
+    font-size: 30px;
+    font-weight: 1000;
+    color: black;
+}
+.section10div1 p{
+    font-weight: 700;
+    text-decoration: underline;
+    text-underline-offset: 2px;
+    font-size: 20px;
+}
+.section10div1 p:hover{
+    cursor: pointer;
+}
+.section10div2{
+    display: flex;
+    padding-top: 30px;
+    padding-left: 20px;
+    padding-right: 20px;
+    gap: 7px;
+}
+.soldouttag{
+    background-color: white;
+    position: absolute;
+    color: black;
+    font-weight: 550;
+    margin-top: 219px;
+    border-radius: 2px;
+    font-size: 13px;
+    padding: 3px 3px 3px 0px;
+}
+.section11{
+    margin-top: 50px;
+}
+.section12{
+    margin-top: 50px;
+    display: flex;
+    gap: 7px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.section12 img{
+    border-radius: 100px;
+}
+.section12 img:hover{
+    position: relative;
+    top: -2px;
+    cursor: pointer;
+}
+.section12 div{
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+.section12 div p{
+    font-size: 20px;
+    font-weight: bold;
+}
+.section12 div p:hover{
+    cursor: pointer;
+}
+.softattars{
+    padding-left: 53px;
+}
+.freshattars{
+    padding-left: 47px;
+}
+.citrusattars{
+    padding-left: 48px;
+}
+.woodyattars{
+    padding-left: 42px;
+}
+
+.spicyattars{
+    padding-left: 51px;
+}
+.strongattars{
+    padding-left: 44px;
+}
+.section13{
+    margin-top: 40px;
+}
+.section13div1{
+    display: flex;
+    justify-content: right;
+    gap: 26em;
+    padding-right: 40px;
+}
+.section13div1 h3{
+    font-size: 30px;
+    font-weight: 1000;
+    color: black;
+}
+.section13div1 p{
+    font-weight: 600;
+    text-decoration: underline;
+    text-underline-offset: 2px;
+    font-size: 20px;
+}
+.section13div1 p:hover{
+    cursor: pointer;
+}
+.section13div2{
+    display: flex;
+    padding-top: 30px;
+    padding-left: 20px;
+    padding-right: 20px;
+    gap: 7px;
+}
+.section13div2picture{
+    background-color: #F9F9F9;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 13px;
+    padding-bottom: 40px;
+    position: relative;
+}
+p.section13div2picturecaption{
+    font-size: 18px;
+    line-height: 25px;
+    /* padding: 17px; */
+}
+.section13div2picture p span.captionspan{
+    display: block;
+}
+.section13div2picture p{
+    padding-left: 15px;
+}
+.section13div2picture img{
+    border-radius: 10px 10px 0px 0px;
+}
+.checked{
+    color: #F8A300;
+}
+.hoverimage{
+    position: absolute;
+    display: none;
+    top: 0;
+    left: 0;
+}
+.section13div2picture:hover .hoverimage{
+    display: block;
+}
+.section13div2picture:hover{
+    cursor: pointer;
+}
+.section13div3{
+    display: flex;
+    padding-top: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    gap: 7px;
+}
+.section13div3picture{
+    background-color: #F9F9F9;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 13px;
+    padding-bottom: 40px;
+    position: relative;
+}
+p.section13div3picturecaption{
+    font-size: 18px;
+    line-height: 25px;
+    /* padding: 17px; */
+}
+.section13div3picture p span.captionspan{
+    display: block;
+}
+.section13div3picture p{
+    padding-left: 15px;
+}
+.section13div3picture img{
+    border-radius: 10px 10px 0px 0px;
+}
+.section13div3picture:hover .hoverimage{
+    display: block;
+}
+.section13div3picture:hover{
+    cursor: pointer;
+}
+.section14{
+    margin-top: 50px;
+}
+.section14div1{
+    display: flex;
+    justify-content: right;
+    gap: 26em;
+    padding-right: 40px;
+}
+.section14div1 h3{
+    font-size: 30px;
+    font-weight: 1000;
+    color: black;
+}
+.section14div1 p{
+    font-weight: 700;
+    text-decoration: underline;
+    text-underline-offset: 2px;
+    font-size: 20px;
+}
+.section14div1 p:hover{
+    cursor: pointer;
+}
+.section14div2{
+    display: flex;
+    padding-top: 30px;
+    padding-left: 20px;
+    padding-right: 20px;
+    gap: 7px;
+}
+.section14div2picture{
+    background-color: #F9F9F9;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 13px;
+    padding-bottom: 40px;
+    position: relative;
+}
+p.section14div2picturecaption{
+    font-size: 18px;
+    line-height: 25px;
+    /* padding: 17px; */
+}
+.section14div2picture p span.captionspan{
+    display: block;
+}
+.section14div2picture p{
+    padding-left: 15px;
+}
+.section14div2picture img{
+    border-radius: 10px 10px 0px 0px;
+}
+.section14div2picture:hover .hoverimage{
+    display: block;
+}
+.section14div2picture:hover{
+    cursor: pointer;
+}
+.section15{
+    margin-top: 50px;
+    padding: 0px 20px;
+}
+.section16{
+    display: flex;
+    background-color: #F6B116;
+    margin-top: 50px;
+    /* justify-content: center; */
+    /* padding-left: 30px; */
+    /* padding-right: 30px; */
+    align-items: center;
+    gap: 20px;
+    /* padding-top: 30px; */
+    padding: 45px;
+}
+.section16div2{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    /* text-align: center; */
+    padding-left: 70px;
+}
+.section16div1{
+    width: 2000px;
+    height: auto;
+}
+.section16div2 p{
+    font-size: 20px;
+    letter-spacing: 1px;
+}
+.section16div2 h2{
+    font-size: 35px;
+}
+.section16div2 h2 span{
+    display: block;
+}
+.section16div2 button{
+    background-color: white;
+    color: #EFAC15;
+    font-size: 20px;
+    font-weight: 600;
+    width: 31%;
+    padding: 15px 8px;
+    border-radius: 30px;
+    border: none;
+}
+.section16div2 button:hover{
+    background-color: black;
+    color: white;
+}
+.section17{
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 60px;
+    gap: 40px;
+}
+.section17div1{
+    color: white;
+    width: 40%;
+}
+.section17div1 h1{
+    font-size: 35px;
+}
+.section17div1 h1 span{
+    display: block;
+}
+.section17div1 p{
+    padding-top: 20px;
+    font-size: 18px;
+    line-height: 30px;
+    letter-spacing: 1px;
+    font-weight: 400;
+    /* text-align: justify; */
+}
+.parcelboximage{
+    height: auto;
+    width: 280px;
+    padding-top: 120px;
+    padding-left: 150px;
+}
+.shopimage{
+    height: auto;
+    width: 280px;
+    position: absolute;
+    margin-top: 175px;
+    margin-left: -501px;
+}
+.section17div2{
+    position: relative;
+}
+.section18{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    background-color: #F6B116;
+    padding: 40px 0px;
+    gap: 20px;
+}
+.section18 h1{
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+}
+.email{
+    font-size: 18px;
+    padding: 13px;
+    border: none;
+    width: 180px;
+}
+.email::placeholder{
+    color: black;
+    opacity: 1;
+}
+.subscribebutton{
+    font-size: 19px;
+    color: #EFAC15;
+    border: none;
+    padding: 13px;
+    border-radius: 0px 25px 25px 0px;
+    background-color: white;
+    border-left: 0.1px solid #b1b0b0;
+    font-weight: bold;
+    width: 130px;
+}
+.section18div1{
+    display: flex;
+    justify-content: center;
+}
+.hr3{
+    background-color: white;
+    height: 1px;
+    border: none;
+    margin: 0;
+}
+.section19{
+    /* background-color: black;
+    color: white; */
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 100px;
+    /* position: relative; */
+    /* justify-content: center; */
+}
+.section19div1{
+    display: flex;
+    gap: 40px;
+}
+.footerlogo{
+    width: auto;
+    height: 115px;
+}
+.footernav{
+    list-style-type: none;
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    font-weight: 500;
+}
+.section19div2{
+    display: flex;
+    list-style-type: none;
+    gap: 40px;
+}
+.section19div2div1{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    font-size: 20px;
+}
+.section19div2div2{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    font-size: 20px;
+}
+.heading{
+    font-weight: bold;
+    font-size: 22px;
+    padding-bottom: 10px;
+}
+.callicon{
+    height: 22px;
+    width: auto;
+    padding-top: ;
+}
+.emailicon{
+    height: 22px;
+    width: auto;
+    padding-top: ;
+}
+.icondiv{
+    display: flex;
+    gap: 8px;
+}
+.icondiv a{
+    color: white;
+}
+.icon{
+    width: 28px;
+    height: auto;
+}
+.followusicon{
+    display: flex;
+    gap: 15px;
+}
+/* .addressdiv{
+    position: absolute;
+    margin-top: 1px;
+    margin-left: 1px;
+} */
+.address{
+    font-size: 20px;
+}
+.address span{
+    display: block;
+}
+.section19main{
+    background-color: black;
+    color: white;
+    padding-bottom: 35px;
+}
+.addressdiv{
+    padding-left: 40%;
+}
+.addressdiv p{
+    line-height: 25px;
+}
+.hr4{
+    background-color: #444;
+    height: 0.4px;
+    border: none;
+    margin: 0;
+}
+.section20{
+    background-color: black;
+    padding: 30px 0px;
+    color: white;
+    text-align: center;
+    font-size: 17px;
 }
