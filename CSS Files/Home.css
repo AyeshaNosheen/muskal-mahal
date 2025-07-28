@@ -78,8 +78,8 @@ body{
     padding-bottom: 20px;
     list-style-type: none;
     justify-content: center;
-    gap: 30px;
-    font-size: 18px;
+    gap: 40px;
+    font-size: 17px;
     align-items: center;
 }
 .section3 a:hover{
@@ -840,12 +840,12 @@ p.section14div2picturecaption{
 .callicon{
     height: 22px;
     width: auto;
-    padding-top: ;
+    /* padding-top: ; */
 }
 .emailicon{
     height: 22px;
     width: auto;
-    padding-top: ;
+    /* padding-top: ; */
 }
 .icondiv{
     display: flex;

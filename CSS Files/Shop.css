@@ -1,0 +1,305 @@
+*{
+    margin: 0;
+    padding: 0;
+    max-width: 100%;
+}
+body{
+    background-color: white;
+}
+.section1{
+    background-color: #F6B116;
+    text-align: center;
+    color: white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-weight: 550;
+    box-sizing: border-box;
+}
+.section2{
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 40px;
+    padding-right: 40px;
+    align-items: center;
+    box-sizing: border-box;
+}
+.search{
+    border-radius: 23px;
+    padding: 13px;
+    font-size: 15px;
+    border: none;
+    /* outline: none; */
+    width: 280px;
+}
+.search::placeholder{
+    opacity: 0.5;
+}
+.logo{
+    height: 118px;
+    width: auto;
+}
+.accountandcartdiv{
+    display: flex;
+    gap: 7px;
+    color: white;
+}
+.accounticon{
+    height: 40px;
+    width: auto;
+    padding-top: 10px;
+}
+.carticon{
+    height: 42px;
+    width: auto;
+    padding-top: 10px;
+}
+.accounticon:hover, .carticon:hover{
+    cursor: pointer;
+}
+.accountandcartdiv p{
+    padding-top: 20px;
+    letter-spacing: 2px;
+}
+.accountandcartdiv p:hover{
+    cursor: pointer;
+}
+.hr1{
+    background-color: #444;
+    height: 0.4px;
+    border: none;
+    margin: 0;
+}
+.section3{
+    display: flex;
+    color: white;
+    background-color: black; 
+    padding-top: 15px;
+    padding-bottom: 20px;
+    list-style-type: none;
+    justify-content: center;
+    gap: 40px;
+    font-size: 17px;
+    align-items: center;
+}
+.section3 a:hover{
+    text-decoration: underline;
+    text-underline-offset: 23px;
+    cursor: pointer;
+}
+.hr2{
+    background-color: white;
+    height: 0.4px;
+    border: none;
+    margin: 0;
+}
+.mainsection{
+    margin-top:60px;
+    display: flex;
+    /* height: 100vh; */
+}
+.sidebar{
+    position: sticky;
+    top: 30%;
+    /* bottom: 10px; */
+    list-style-type: none;
+    padding-left: 35px;
+    font-size: 21px;
+    font-weight: 800;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    width: 750px;
+    height: 0px;
+}
+.section5{
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.section5div1{
+    display: flex;
+    /* gap:10px; */
+    justify-content: space-between;
+    padding-left: 30px;
+    padding-right: 150px;
+    font-size: 19px;
+}
+.categorydropdown{
+    font-size: 15px;
+    border: none;
+    padding: 5px;
+}
+.section5div2{
+    display: flex;
+    padding-top: 0px;
+    padding-left: 20px;
+    padding-right: 20px;
+    gap: 7px;
+}
+.section5divpicture{
+    background-color: #F9F9F9;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 13px;
+    padding-bottom: 40px;
+    position: relative;
+}
+p.section5divpicturecaption{
+    font-size: 16px;
+    line-height: 25px;
+    /* padding: 17px; */
+}
+.section5divpicture p span.captionspan{
+    display: block;
+}
+.section5divpicture p{
+    padding-left: 15px;
+}
+.section5divpicture img{
+    border-radius: 10px 10px 0px 0px;
+}
+.checked{
+    color: #F8A300;
+}
+.hoverimage{
+    position: absolute;
+    display: none;
+    top: 0;
+    left: 0;
+}
+.section5divpicture:hover .hoverimage{
+    display: block;
+}
+.section5divpicture:hover{
+    cursor: pointer;
+}
+span.reviewnumber{
+    font-size: 18px;
+}
+.emojiline{
+    color: #868686;
+    font-size: 17px;
+}
+.price{
+    color: #EFAC15;
+    font-weight: bold;
+    font-size: 20px;
+}
+span.discountedprice{
+    font-size: 16px;
+    text-decoration: line-through; 
+    padding-left: 5px;
+}
+.saletag{
+    background-color: #F6B116;
+    position: absolute;
+    color: white;
+    font-weight: 550;
+    margin-top: 219px;
+    border-radius: 2px;
+    font-size: 13px;
+    padding: 3px 3px 3px 0px;
+}
+.from{
+    font-size: 16px;
+}
+.section5div3{
+    display: flex;
+    padding-top: 0px;
+    padding-left: 20px;
+    padding-right: 20px;
+    gap: 7px;
+}
+.section5div4{
+    display: flex;
+    padding-top: 0px;
+    padding-left: 20px;
+    padding-right: 20px;
+    gap: 7px;
+}
+.section5div5{
+    display: flex;
+    padding-top: 0px;
+    padding-left: 20px;
+    padding-right: 20px;
+    gap: 7px;
+}
+.section5div6{
+    display: flex;
+    padding-top: 0px;
+    padding-left: 20px;
+    padding-right: 20px;
+    gap: 7px;
+}
+.section5div7{
+    display: flex;
+    padding-top: 0px;
+    padding-left: 20px;
+    padding-right: 20px;
+    gap: 7px;
+}
+.section5div8{
+    display: flex;
+    padding-top: 0px;
+    padding-left: 20px;
+    padding-right: 20px;
+    gap: 7px;
+}
+.section5div9{
+    display: flex;
+    padding-top: 0px;
+    padding-left: 20px;
+    padding-right: 20px;
+    gap: 7px;
+}
+.section5div10{
+    display: flex;
+    padding-top: 0px;
+    padding-left: 20px;
+    padding-right: 20px;
+    gap: 7px;
+}
+.section5div11{
+    display: flex;
+    padding-top: 0px;
+    padding-left: 20px;
+    padding-right: 20px;
+    gap: 7px;
+}
+.section5div12{
+    display: flex;
+    padding-top: 0px;
+    padding-left: 20px;
+    padding-right: 20px;
+    gap: 7px;
+}
+.section5div13{
+    display: flex;
+    padding-top: 0px;
+    padding-left: 20px;
+    padding-right: 20px;
+    gap: 7px;
+}
+.section5div14{
+    display: flex;
+    padding-top: 0px;
+    padding-left: 20px;
+    padding-right: 20px;
+    gap: 7px;
+}
+.section5div15{
+    padding-top: 0px;
+    padding-left: 20px;
+    padding-right: 20px;
+    width: 283px;
+}
+.pagenumberdiv{
+    display: flex;
+    gap: 10px;
+    list-style: none;
+    justify-content: center;
+    font-size: 17px;
+}
