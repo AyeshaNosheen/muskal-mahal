@@ -82,6 +82,10 @@ body{
     font-size: 17px;
     align-items: center;
 }
+.section3 a{
+    text-decoration: none;
+    color: white;
+}
 .section3 a:hover{
     text-decoration: underline;
     text-underline-offset: 23px;
@@ -182,7 +186,7 @@ p.discountedprice{
     position: absolute;
     color: white;
     font-weight: 550;
-    margin-top: 219px;
+    margin-top: 196px;
     border-radius: 2px;
     font-size: 13px;
     padding: 3px 3px 3px 0px;
@@ -435,7 +439,7 @@ p.section7div2picturecaption{
     position: absolute;
     color: black;
     font-weight: 550;
-    margin-top: 219px;
+    margin-top: 196px;
     border-radius: 2px;
     font-size: 13px;
     padding: 3px 3px 3px 0px;
