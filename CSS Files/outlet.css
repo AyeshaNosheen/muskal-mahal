@@ -105,171 +105,37 @@ body{
     border: none;
     margin: 0;
 }
-.mainsection{
-    margin-top:60px;
-    display: flex;
-    /* height: 11000px; */
+.section4{
+    margin-top: 30px;
+    margin-bottom: 40px;
 }
-.sidebar{
-    position: sticky;
-    top: 27%;
-    /* bottom: 10px; */
-    list-style-type: none;
-    padding-left: 35px;
-    font-size: 21px;
-    font-weight: 800;
-    display: flex;
-    flex-direction: column;
-    gap: 25px;
-    width: 60%;
-    height: 0%;
-}
-.section5{
-    flex-grow: 1;
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
-}
-.section5div1{
-    display: flex;
-    /* gap:10px; */
-    justify-content: space-between;
-    padding-left: 30px;
-    padding-right: 150px;
-    font-size: 19px;
-}
-.categorydropdown{
-    font-size: 15px;
-    border: none;
-    padding: 5px;
-}
-.section5div2{
-    display: flex;
-    padding-top: 0px;
-    padding-left: 20px;
-    padding-right: 20px;
-    gap: 7px;
-}
-.section5divpicture{
-    background-color: #F9F9F9;
-    border-radius: 10px;
-    display: flex;
-    flex-direction: column;
-    gap: 13px;
-    padding-bottom: 40px;
-    position: relative;
-}
-p.section5divpicturecaption{
-    font-size: 16px;
-    line-height: 25px;
-    /* padding: 17px; */
-}
-.section5divpicture p span.captionspan{
-    display: block;
-}
-.section5divpicture p{
-    padding-left: 15px;
-}
-.section5divpicture img{
-    border-radius: 10px 10px 0px 0px;
-}
-.checked{
-    color: #F8A300;
-}
-.hoverimage{
-    position: absolute;
-    display: none;
-    top: 0;
-    left: 0;
-}
-.section5divpicture:hover .hoverimage{
-    display: block;
-}
-.section5divpicture:hover{
-    cursor: pointer;
-}
-span.reviewnumber{
-    font-size: 18px;
-}
-.emojiline{
-    color: #868686;
-    font-size: 17px;
-}
-.price{
-    color: #EFAC15;
+.mainheading{
     font-weight: bold;
-    font-size: 20px;
+    padding-left: 300px;
 }
-span.discountedprice{
-    font-size: 16px;
-    text-decoration: line-through; 
-    padding-left: 5px;
-}
-.saletag{
-    background-color: #F6B116;
-    position: absolute;
-    color: white;
-    font-weight: 550;
-    margin-top: 268px;
-    border-radius: 2px;
-    font-size: 13px;
-    padding: 3px 3px 3px 0px;
-}
-.from{
-    font-size: 16px;
-}
-.section5div3{
-    padding-top: 0px;
-    padding-left: 20px;
-    padding-right: 20px;
-    width: 283px;
-}
-.section6{
-    margin-top: 50px;
-    padding: 35px;
-}
-.section6div1 h3{
-    font-size: 25px;
-    font-weight: 1000;
-    color: black;
-    text-align: left;
-}
-.section6div2{
-    display: flex;
-    padding-top: 30px;
-    /* padding-left: 20px;
-    padding-right: 20px; */
-    gap: 7px;
-}
-.section6div2picture{
-    background-color: #F9F9F9;
-    border-radius: 10px;
+.section4div{
     display: flex;
     flex-direction: column;
-    gap: 13px;
-    padding-bottom: 40px;
-    position: relative;
+    gap: 14px;
+    justify-content: center;
+    align-items: center;
+    padding-top: 40px;
 }
-p.section6div2picturecaption{
-    font-size: 18px;
-    line-height: 25px;
-    /* padding: 17px; */
+.section4div h2{
+    font-weight: bold;
 }
-.section6div2picture p span.captionspan{
+.section4div p span{
     display: block;
+    text-align: center;
 }
-.section6div2picture p{
-    padding-left: 15px;
+.section4div p{
+    font-size: 16px;
 }
-.section6div2picture img{
-    border-radius: 10px 10px 0px 0px;
-}
-.section6div2picture:hover .hoverimage{
-    display: block;
-}
-.section6div2picture:hover{
-    cursor: pointer;
-}
+
+
+
+
+
 .section19{
     /* background-color: black;
     color: white; */

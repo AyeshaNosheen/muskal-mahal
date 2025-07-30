@@ -44,21 +44,29 @@ body{
     gap: 7px;
     color: white;
 }
+.accountandcartdiv a{
+    text-decoration: none;
+    color: white;
+    display: flex;
+}
+.accountandcartdiv a p.accountpara{
+    padding-top: 8px;
+}
 .accounticon{
     height: 40px;
     width: auto;
-    padding-top: 10px;
+    /* padding-top: 10px; */
 }
 .carticon{
     height: 42px;
     width: auto;
-    padding-top: 10px;
+    /* padding-top: 10px; */
 }
 .accounticon:hover, .carticon:hover{
     cursor: pointer;
 }
 .accountandcartdiv p{
-    padding-top: 20px;
+    padding-top: 8px;
     letter-spacing: 2px;
 }
 .accountandcartdiv p:hover{
