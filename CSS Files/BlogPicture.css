@@ -106,123 +106,113 @@ body{
     margin: 0;
 }
 .section4{
-    margin-top: 30px;
-    padding-left: 35px;
+    display: flex;
+    gap: 50px;
+    padding: 25px 40px;
 }
-.section4 h1{
-    font-size: 28px;
+.section4part1{
+    flex-grow: 1;
+    padding-right: 30px;
+}
+.section4part2{
+    width: 1200px;
+    padding-left: 20px;
+}
+.mainheading{
     font-weight: bold;
 }
-.section4div1{
-    padding-top: 20px;
-    padding-right: 30px;
-    padding-left: 10px;
+.section4part2 p{
+    margin-top: 20px;
 }
-.section4div1 a img{
-    width: 100%;
-    border-radius: 15px;
-}
-.section4 a{
-    text-decoration: none;
+.arabicattars{
     color: black;
-    text-align: center;
+    font-weight: bold;
+    background-color: white;
+    border: 1px solid black;
+    padding: 9px 12px;
+    font-size: 13px;
+    margin-right: 10px;
 }
-.section4 p{
-    text-align: center;
-    color: grey;
+.attarsinpaistan{
+    color: black;
+    font-weight: bold;
+    background-color: white;
+    border: 1px solid black;
+    padding: 9px 12px;
+    font-size: 13px;
 }
-.section4div{
+.bestattars{
+    color: black;
+    font-weight: bold;
+    background-color: white;
+    border: 1px solid black;
+    padding: 9px 12px;
+    font-size: 13px;
+    margin-right: 10px;
+}
+.longastingattar{
+    color: black;
+    font-weight: bold;
+    background-color: white;
+    border: 1px solid black;
+    padding: 9px 12px;
+    font-size: 13px;
+}
+.section4part2 div p a{
+    text-decoration: none;
+}
+.shareheading{
+    padding-top: 50px;
+}
+.icondiv{
     display: flex;
-    gap: 10px;
-    padding-top: 40px;
-    padding-right: 30px;
-    padding-left: 10px;
 }
-.section4div div a img{
-    border-radius: 15px;
+.facebookicondiv{
+    display: flex;
+    gap: 5px;
 }
-.section4div div a h2{
-    font-size: 18px;
+.shareicondiv{
+    display: flex;
+    gap: 5px;
+    padding-left: 9px;
 }
-.section4div3part2{
+.pinicondiv{
+    display: flex;
+    gap: 5px;
+    padding-left: 9px;
+}
+.icondiv img{
+    width: auto;
+    height: 20px;
+    padding-top: 18px;
+}
+.icondiv p{
+    font-size: 14px;
+}
+.featureheading{
+    padding-top: 60px;
+    font-size: 19px;
+    font-weight: bold;
+}
+.featureimage{
+    background-color: #F9F9F9;
+    border-radius: 10px;
+    /* padding-bottom: 40px; */
     position: relative;
 }
-p.arabic-attar-tag{
-    border: 1px solid black;
-    background-color: #FFFFFF;
-    position: absolute;
-    font-size: 13px;
-    color: black;
-    padding: 5px;
-    font-weight: bold;
-    margin-top: 277px;
-    margin-left: 93px;
+p.featureimagecaption{
+    font-size: 16px;
+    line-height: 25px;
+    /* padding: 17px; */
 }
-.tagsheading{
-    padding-top: 35px;
+.featureimage p span.captionspan{
+    display: block;
 }
-p.pakistan-attar-tag{
-    border: 1px solid black;
-    background-color: #FFFFFF;
-    position: absolute;
-    font-size: 13px;
-    color: black;
-    padding: 5px;
-    font-weight: bold;
-    margin-top: 277px;
-    margin-left: 216px;
+.featureimage p{
+    padding-left: 15px;
 }
-p.bests-attar-tag{
-    border: 1px solid black;
-    background-color: #FFFFFF;
-    position: absolute;
-    font-size: 13px;
-    color: black;
-    padding: 5px;
-    font-weight: bold;
-    margin-top: 277px;
-    margin-left: 371px;
-}
-p.longlasting-attar-tag{
-    border: 1px solid black;
-    background-color: #FFFFFF;
-    position: absolute;
-    font-size: 13px;
-    color: black;
-    padding: 5px;
-    font-weight: bold;
-    margin-top: 306px;
-    margin-left: 195px;
-}
-.pagenumberdiv{
-    display: flex;
-    gap: 15px;
-    list-style: none;
-    justify-content: center;
-    font-size: 17px;
-    padding-top: 40px;
-    align-items: center;
-}
-.pagenumberdiv a{
-    color: black;
-    text-decoration: none;
-}
-.arrowmark{
-    background-color: black;
-    color: white;
-    font-weight: bold;
-    font-size: 18px;
-    padding: 14px 15px;
-    border-radius: 30px;
-    border: none;
-}
-
-
-
-
-
-.checked{
-    color: #F8A300;
+.featureimage img{
+    border-radius: 10px 10px 0px 0px;
 }
 .hoverimage{
     position: absolute;
@@ -230,8 +220,11 @@ p.longlasting-attar-tag{
     top: 0;
     left: 0;
 }
-span.reviewnumber{
-    font-size: 18px;
+.featureimage:hover .hoverimage{
+    display: block;
+}
+.featureimage:hover{
+    cursor: pointer;
 }
 .emojiline{
     color: #868686;
@@ -242,75 +235,207 @@ span.reviewnumber{
     font-weight: bold;
     font-size: 20px;
 }
-.from{
-    font-size: 16px;
+.section4part1 h1{
+    font-size: 33px;
+    font-weight: bold;
 }
-.section6{
-    margin-top: 50px;
-    padding: 35px;
+.date{
+    color: #868686;
+    padding-top: 10px;
 }
-.section6div1{
+.para1{
     display: flex;
-    justify-content: right;
-    gap: 17em;
-    padding-right: 30px;
 }
-.section6div1 h3{
-    font-size: 30px;
-    font-weight: 1000;
-    color: black;
+.firstletter{
+    font-size: 50px;
+    font-weight: bold;
 }
-.section6div1 p{
-    font-weight: 700;
-    text-decoration: underline;
-    text-underline-offset: 2px;
-    font-size: 20px;
+.para1remaining{
+    padding-top: 10px;
 }
-.section6div1 p:hover{
-    cursor: pointer;
+.para1remaining a{
+    color: blue;
+    font-weight: bold;
+    text-decoration-color: black;
 }
-/* .section6div1 h3{
-    font-size: 25px;
-    font-weight: 1000;
-    color: black;
-    text-align: left;
-} */
-.section6div2{
-    display: flex;
-    padding-top: 30px;
-    /* padding-left: 20px;
-    padding-right: 20px; */
-    gap: 7px;
+.div2{
+    background-color: #F7F9F9;
+    border: 1px solid #dad9d9;
+    margin-top: 30px;
+    padding: 0px 20px;
 }
-.section6div2picture{
-    background-color: #F9F9F9;
-    border-radius: 10px;
-    display: flex;
-    flex-direction: column;
-    gap: 13px;
-    padding-bottom: 40px;
-    position: relative;
+.div2 a{
+    text-decoration: none;
 }
-p.section6div2picturecaption{
-    font-size: 18px;
-    line-height: 25px;
-    /* padding: 17px; */
+.div2 p{
+    color: #868686;
+    padding: 10px 0px;
+    font-size: 14px;
 }
-.section6div2picture p span.captionspan{
-    display: block;
-}
-.section6div2picture p{
+.orderedlist, .methoddiv{
     padding-left: 15px;
 }
-.section6div2picture img{
-    border-radius: 10px 10px 0px 0px;
+.div3{
+    padding-top: 40px;
 }
-.section6div2picture:hover .hoverimage{
-    display: block;
+.div3 h1{
+    font-size: 25px;
 }
-.section6div2picture:hover{
+.div3 p{
+    padding-top: 10px;
+}
+.div3 p a{
+    color: blue;
+    text-decoration-color: black;
+    font-weight: bold;
+}
+.div3 p span{
+    font-weight: bold;
+}
+.div4{
+    padding-top: 20px;
+}
+.div4 h1{
+    font-size: 25px;
+}
+.div4 p{
+    padding-top: 10px;
+}
+.div4 p span{
+    font-weight: bold;
+}
+.div4 p a{
+    color: blue;
+    font-weight: bold;
+    text-decoration-color: black;
+}
+.div4 h3{
+    padding-top: 10px;
+    font-size: 18px;
+    font-weight: bold;
+}
+.div5{
+    padding-top: 20px;
+}
+.div5 h1{
+    font-size: 25px;
+}
+.div5 p{
+    padding-top: 10px;
+}
+.div5 p span{
+    font-weight: bold;
+}
+.div5 div{
+    padding-left: 20px;
+}
+.div5 div li span{
+    font-weight: bold;
+}
+.div6{
+    padding-top: 20px;
+}
+.div6 h1{
+    font-size: 25px;
+}
+.div6 p{
+    padding-top: 15px;
+}
+.div6 p span{
+    font-weight: bold;
+}
+.charcoalmethod{
+    padding-top: 10px;
+    font-size: 23px;
+}
+.div6 h6{
+    padding-top: 10px;
+    font-size: 17px;
+    font-weight: bold;
+}
+.div6 div{
+    padding-left: 20px;
+}
+.div6 div li{
+    padding-top: 20px;
+}
+.orderedlist{
+    list-style-type: decimal;
+}
+.safetytips{
+    font-size: 17px;
+}
+.div7{
+    padding-top: 20px;
+}
+.div7 h1{
+    font-size: 25px;
+}
+.div7 div{
+    padding-top: 10px;
+    padding-left: 20px;
+}
+.div7 div li span{
+    font-weight: bold;
+}
+.div8{
+    padding-top: 20px;
+}
+.div8 h1{
+    font-size: 25px;
+}
+.div8 p{
+    padding-top: 15px;
+}
+.div8 p span{
+    font-weight: bold;
+}
+.div9{
+    padding-top: 20px;
+}
+.div9 h1{
+    font-size: 25px;
+}
+.div9 p{
+    padding-top: 15px;
+}
+.div9 p span{
+    font-weight: bold;
+}
+.div9 p a{
+    color: blue;
+    font-weight: bold;
+    text-decoration-color: black;
+}
+.hr{
+    background-color: grey;
+    height: 0.4px;
+    border: none;
+    margin-top: 40px;
+}
+.backtonews{
+    margin-top: 40px;
+    background-color: black;
+    color: white;
+    font-weight: bold;
+    padding: 15px 20px;
+    border: none;
+    font-size: 16px;
+    border-radius: 25px;
+    margin-left: 40%;
+    margin-bottom: 40px;
+}
+.backtonews:hover{
     cursor: pointer;
 }
+
+
+
+
+
+
+
+
 .section19{
     /* background-color: black;
     color: white; */

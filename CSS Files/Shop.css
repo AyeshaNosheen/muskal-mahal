@@ -310,14 +310,25 @@ span.discountedprice{
 }
 .pagenumberdiv{
     display: flex;
-    gap: 10px;
+    gap: 15px;
     list-style: none;
     justify-content: center;
     font-size: 17px;
+    padding-top: 40px;
+    align-items: center;
 }
 .pagenumberdiv a{
     color: black;
     text-decoration: none;
+}
+.arrowmark{
+    background-color: black;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    padding: 14px 15px;
+    border-radius: 30px;
+    border: none;
 }
 .section5part2{
     margin-top: 70px;
