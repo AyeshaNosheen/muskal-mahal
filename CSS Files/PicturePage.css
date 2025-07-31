@@ -297,12 +297,296 @@ body{
     margin-top: 30px;
     border: none;
     color: white;
-    padding: 7px 15px;
+    padding: 9px 18px;
     font-weight: bold;
+    font-size: 16px;
+}
+.buttondiv{
+    display: flex;
+}
+.button1{
+    border-radius: 15px 0px 0px 0px;
+}
+.button4{
+    border-radius: 0px 15px 0px 0px;
+}
+.buttondiv button:hover{
+    color: black;
+    background-color: #F6B116;
+}
+.buttondiv .button1{
+    background-color: #F6B116;
+}
+.descriptiondiv{
+    width: 90%;
+    padding-left: 20px;
+    /* padding-right: 20px; */
+    border-left: 1px solid #868686;
+    border-bottom: 1px solid #868686;
+    border-right: 1px solid #868686;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+.section5 h3.section5mainheading{
+    text-align: center;
+    margin-top: 25px;
+}
+.section5imagesdiv{
+    display: flex;
+    padding: 20px 30px;
+    gap: 10px;
+}
+.section5imagediv1{
+    border: 1px solid black;
+    padding: 9px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+.section5imagediv1{
+    border: 1px solid black;
+    padding: 9px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+.section5imagediv1{
+    border: 1px solid #DDDDDD;
+    padding: 9px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+.section5imagediv1 h3{
+    font-size: 16px;
+    font-weight: bold;
+}
+.section5imagediv1 p{
     font-size: 15px;
+}
+.sizedropdown{
+    padding: 5px;
+    border-color: #868686;
+}
+.sizetag{
+    font-weight: bold;
+}
+.button5{
+    font-size: 17px;
+    font-weight: bold;
+    padding: 8px;
+    background-color: #F6B116;
+    border: none;
+    color: white;
+    border-radius: 22px;
+    width: 90%;
+    margin-top: 12px;
+    margin-left: 60px;
+    margin-bottom: 20px;
+    /* margin-right: 19px; */
+}
+.section7{
+    margin-top: 10px;
+}
+.section9{
+    display: flex;
+    padding: 10px 30px;
+    gap: 10px;
+}
+.section9div1{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.section9div1 div{
+    border-radius: 5px;
+    background-color: #f3f2f2;
+}
+.section9div1 div img{
+    border-radius: 5px 5px 0px 0px;
+}
+.section9div1 div p{
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.section9div2{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.section9div2 div{
+    border-radius: 5px;
+    background-color: #f3f2f2;
+}
+.section9div2 div img{
+    border-radius: 5px 5px 0px 0px;
+}
+.section9div3{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.section9div3 div{
+    border-radius: 5px;
+    background-color: #f3f2f2;
+}
+.section9div3 div img{
+    border-radius: 5px 5px 0px 0px;
+}
+.section9div4{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.section9div4 div{
+    border-radius: 5px;
+    background-color: #f3f2f2;
+}
+.section9div4 div img{
+    border-radius: 5px 5px 0px 0px;
+}
+.section9div4 div p{
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.name{
+    font-size: 15px;
+    font-weight: bold;
+}
+.replydiv{
+    /* background-color: #a1a1a1; */
+    /* padding-left: 20px; */
+    /* padding-right: 20px; */
+    margin-left: 20px;
+    margin-right: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 15px;
+    /* border: 1px solid black; */
+}
+.replydiv p{
+    background-color: #a1a1a1;
 }
 
 
+
+
+
+
+.section10{
+    margin-top: 50px;
+    padding: 35px;
+}
+.section10div1 h3{
+    font-size: 25px;
+    font-weight: 1000;
+    color: black;
+    text-align: left;
+}
+.section10div2{
+    display: flex;
+    padding-top: 30px;
+    /* padding-left: 20px;
+    padding-right: 20px; */
+    gap: 7px;
+}
+.section10divpicture{
+    background-color: #F9F9F9;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 13px;
+    padding-bottom: 40px;
+    position: relative;
+}
+p.section10divpicturecaption{
+    font-size: 17px;
+    line-height: 25px;
+    /* padding: 17px; */
+}
+.section10divpicture p span.captionspan{
+    display: block;
+}
+.section10divpicture p{
+    padding-left: 15px;
+}
+.section10divpicture img{
+    border-radius: 10px 10px 0px 0px;
+}
+.section10divpicture:hover .hoverimage{
+    display: block;
+}
+.section10divpicture:hover{
+    cursor: pointer;
+}
+.hoverimage{
+    position: absolute;
+    display: none;
+    top: 0;
+    left: 0;
+}
+span.reviewnumber{
+    font-size: 18px;
+}
+.emojiline{
+    color: #868686;
+    font-size: 17px;
+}
+.price{
+    color: #EFAC15;
+    font-weight: bold;
+    font-size: 20px;
+}
+span.discountedprice{
+    font-size: 16px;
+    text-decoration: line-through; 
+    padding-left: 5px;
+}
+.saletag{
+    background-color: #F6B116;
+    position: absolute;
+    color: white;
+    font-weight: 550;
+    margin-top: 268px;
+    border-radius: 2px;
+    font-size: 13px;
+    padding: 3px 3px 3px 0px;
+}
+.from{
+    font-size: 16px;
+}
+.section11{
+    /* margin-top: 50px; */
+    padding: 35px;
+}
+.section10div1 h3 a{
+    color: black;
+}
+.section12{
+    margin-top: 10px;
+    padding: 35px;
+}
+.section13{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+.backtoproductbutton{
+    background-color: white;
+    font-weight: bold;
+    font-size: 18px;
+    padding: 15px;
+    border-radius: 30px;
+    border: none;
+}
+.backtoproductbutton:hover{
+    background-color: black;
+    color: white;
+}
 
 
 
