@@ -318,7 +318,7 @@ body{
     background-color: #F6B116;
 }
 .descriptiondiv{
-    width: 90%;
+    width: 84%;
     padding-left: 20px;
     /* padding-right: 20px; */
     border-left: 1px solid #868686;
@@ -409,6 +409,30 @@ body{
     display: flex;
     gap: 70px;
 }
+.star {
+    display: inline-block;
+    width: 20px;
+    text-align: center;
+}
+.star.gold { color: orange; }
+.star.gold-gray { color: gray; }
+.star.gold-gray:after {
+    display: inline-block;
+    color: orange;
+    content: '\2605';
+    position: absolute;
+    margin-left: -13px;
+    width: 6px;
+    overflow: hidden;
+}
+.star.gray { color: gray; }​
+
+
+
+
+
+
+
 .reviewdivpart1{
     padding-top: 20px;
     display: flex;
